@@ -83,7 +83,7 @@ render() {
     <h1 className="title pointer">180 Change Street Form</h1>
     
 
-  <form className="center styl">
+  <form className="center styl pa2">
      <h2> Question: The transit system in toronto is good </h2>
 
 
@@ -91,7 +91,7 @@ render() {
 
 
     
-     <div className="flex items-center mb2">
+     <div className="flex items-center mb2 ">
       <input className="mr2" type="radio" 
        name="radio"  id='yes' onClick={this.formChange} />
       <label htmlFor="Yes" className="lh-copy"  >Yes</label>
@@ -102,9 +102,10 @@ render() {
       <label htmlFor="airbud" className="lh-copy">No</label>
     </div>
 
-    <div className="flex items-center mb2">
+    <div className="flex items-center">
       <input className="mr2" type="radio" name="radio" id='maybe' onClick={this.formChange}/>
       <label htmlFor="hocuspocus" className="lh-copy">Maybe</label>
+  <br/>
     </div>
 
 
@@ -129,6 +130,7 @@ render() {
       
 
     <div className="">
+    <br/>
       <input onClick = {this.submitFormIn}  className="b ph3 pv2 input-reset ba b--black  grow pointer f6 dib" type="button" value="Submit"/>
     </div>
    
