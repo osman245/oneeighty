@@ -83,7 +83,7 @@ render() {
     <h1 className="title pointer">180 Change Street Form</h1>
     
 
-  <form className="center styl pa2">
+  <form className="center styl ml5">
      <h2> Question: The transit system in toronto is good </h2>
 
 
