@@ -45,14 +45,8 @@ render() {
 
   return(
     <div>
-    { this.state.redirect === false
-          ? <div>
               <Street />
-            </div>
-          : (
-            <p> thanks for submitting the survey :)</p> 
-            )
-        }
+         
       </div>
 );
 
