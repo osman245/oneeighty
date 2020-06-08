@@ -13,7 +13,7 @@ class App extends Component {//component to use render(
 constructor() {
 super();
 this.state = { 
-   redirect:false;
+   redirect:false
 }
 }
 
