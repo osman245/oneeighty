@@ -2,7 +2,7 @@ import 'tachyons';
 import './App.css';
 import React,{Component} from 'react';
 import SignatureCanvas from 'react-signature-canvas';
-
+import Street from './Street';
 
 
 
