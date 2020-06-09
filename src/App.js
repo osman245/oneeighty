@@ -84,7 +84,6 @@ render() {
           {this.state.redirect === false
            ? 
        <div>
-    <h1 className="title pointer">180 Change Street Survey</h1>
   <form className="center styl ml5">
      <h2> Question: The transit system in toronto is good </h2>
      <div className="flex items-center mb2 ">
@@ -128,8 +127,8 @@ render() {
 
            :(
 
-            <div> Turning stumbling blocks to stepping stones </div>
-
+            <div className='center mb3'>Thank you for submitting </div>
+            <img src='180.jpg'/>
 
             )
          }
