@@ -81,7 +81,7 @@ render() {
     <div>
 <h1 className="title pointer">180 Change Street Survey</h1>
 
-          {this.state.redirect === true
+          {this.state.redirect === false
            ? 
        <div>
     <h1 className="title pointer">180 Change Street Survey</h1>
