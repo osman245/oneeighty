@@ -126,9 +126,9 @@ render() {
            </div>
 
            :(
-            <div>
-            <div className="center mt3">Thank you for submitting </div>
-            <img src="180.jpg"/>
+            <div className =  "center mt3">
+            <div>Thank you for submitting </div>
+            <img alt="Hello" src="180.jpg"/>
              </div>
             )
          }
