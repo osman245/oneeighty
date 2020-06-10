@@ -79,6 +79,10 @@ render() {
   return(
 
     <div>
+    <head>
+    <link rel="shortcut icon" href="post.png"/>
+  <title>180 change street survey</title>
+</head>
 <h1 className="title pointer">180 Change Street Survey</h1>
 
           {this.state.redirect === false
