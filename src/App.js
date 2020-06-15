@@ -67,15 +67,14 @@ render() {
   return(
 
     <div>
-
-
-    <html>
-<head>
-<title>The Toronto raptors</title>
-<link   href ="TorontoRaptorsStyle.css" rel = "stylesheet" text = "text/css">
-<link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+ <html>
+ <head>
+<title>180 Survey</title>
 <head/>
+
 <html/>
+
+    
 
 <h1 className="title pointer">180 Change Street Survey</h1>
 
