@@ -38,19 +38,7 @@ formChange = (event) => {
        console.log(this.state.decision);
 
   }
-  /* if(document.getElementById('yes').checked) {
-this.setState({decision: event.target.id});
-console.log("yes");
-} else if(document.getElementById('no').checked){
-//this.setState({decision: 'no'});
-console.log("no");
-}else if(document.getElementById('maybe').checked) {
-//this.setState({decision: 'maybe'});
-console.log("maybe");
-}else {
-
-}
-*/
+  
 
 
 submitFormIn = () => {
@@ -79,10 +67,16 @@ render() {
   return(
 
     <div>
-    <head>
-    <link rel="shortcut icon" type="image/x-icon" href="post.png" />
-  <title>180 change street survey</title>
-</head>
+
+
+    <html>
+<head>
+<title>The Toronto raptors</title>
+<link   href ="TorontoRaptorsStyle.css" rel = "stylesheet" text = "text/css">
+<link href="https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+<head/>
+<html/>
+
 <h1 className="title pointer">180 Change Street Survey</h1>
 
           {this.state.redirect === false
